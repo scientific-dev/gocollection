@@ -2,8 +2,6 @@
 
 Simple key:value based utility data structure for golang!
 
-**Message:** It will take some time, for the project to appear in the golang package manager!
-
 ## Quick Example
 
 First install the package!
@@ -17,13 +15,11 @@ In your golang file!
 ```go
 package main
 
-import (
-    "fmt"
-    "github.com/scientific-guy/gocollection"
-)
+import "fmt"
+import collection "github.com/scientific-guy/gocollection"
 
 func main() {
-    col := Collection()
+    col := collection.Collection()
     col.Set("foo", "bar")
     fmt.Println(col.Get("foo")) // Will return "bar"
 }
@@ -38,17 +34,15 @@ So incase if you are not aware how to store structs using this, here is quick tu
 ```go
 package main
 
-import (
-    "fmt"
-    "github.com/scientific-guy/gocollection"
-)
+import "fmt"
+import collection "github.com/scientific-guy/gocollection"
 
 type SimpleStruct struct{
     field string
 }
 
 func main() {
-    col := Collection()
+    col := collection.Collection()
     col.Set("foo", SimpleStruct{ field: "string" })
     
     fmt.Println(col.Get("foo").(SimpleStruct).field) // You can use the basic type conversion of golang for this!
