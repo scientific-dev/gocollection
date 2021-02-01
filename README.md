@@ -2,6 +2,8 @@
 
 Simple key:value based utility data structure for golang!
 
+**Message:** It will take some time, for the project to appear in the golang package manager!
+
 ## Quick Example
 
 First install the package!
