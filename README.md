@@ -56,3 +56,4 @@ Any kind of doubts on this package, you can make an issue in the github repo or 
 **Discord Server:** [https://discord.gg/FrduEZd](https://discord.gg/FrduEZd)<br/>
 **GitHub Repo:** [https://github.com/Scientific-Guy/gocollection/](https://github.com/Scientific-Guy/gocollection)<br/>
 **Docs:** [https://github.com/Scientific-Guy/gocollection/wiki/Go-Collection](https://github.com/Scientific-Guy/gocollection/wiki/Go-Collection)<br/>
+**Golang:** [https://pkg.go.dev/github.com/scientific-guy/gocollection](https://pkg.go.dev/github.com/scientific-guy/gocollection)
