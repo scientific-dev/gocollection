@@ -7,7 +7,7 @@ Simple key:value based utility data structure for golang!
 First install the package!
 
 ```sh
-go get github.com/scientific-guy/gocollection
+go get github.com/scientific-dev/gocollection
 ```
 
 In your golang file!
@@ -16,7 +16,7 @@ In your golang file!
 package main
 
 import "fmt"
-import collection "github.com/scientific-guy/gocollection"
+import collection "github.com/scientific-dev/gocollection"
 
 func main() {
     col := collection.Collection()
@@ -35,7 +35,7 @@ So incase if you are not aware how to store structs using this, here is quick tu
 package main
 
 import "fmt"
-import collection "github.com/scientific-guy/gocollection"
+import collection "github.com/scientific-dev/gocollection"
 
 type SimpleStruct struct{
     field string
@@ -54,6 +54,6 @@ func main() {
 Any kind of doubts on this package, you can make an issue in the github repo or join our discord server and ask us doubts!
 
 **Discord Server:** [https://discord.gg/FrduEZd](https://discord.gg/FrduEZd)<br/>
-**GitHub Repo:** [https://github.com/Scientific-Guy/gocollection/](https://github.com/Scientific-Guy/gocollection)<br/>
-**Docs:** [https://github.com/Scientific-Guy/gocollection/wiki/Go-Collection](https://github.com/Scientific-Guy/gocollection/wiki/Go-Collection)<br/>
-**Golang:** [https://pkg.go.dev/github.com/scientific-guy/gocollection](https://pkg.go.dev/github.com/scientific-guy/gocollection)
+**GitHub Repo:** [https://github.com/scientific-dev/gocollection/](https://github.com/scientific-dev/gocollection)<br/>
+**Docs:** [https://github.com/scientific-dev/gocollection/wiki/Go-Collection](https://github.com/scientific-dev/gocollection/wiki/Go-Collection)<br/>
+**Golang:** [https://pkg.go.dev/github.com/scientific-dev/gocollection](https://pkg.go.dev/github.com/scientific-dev/gocollection)
