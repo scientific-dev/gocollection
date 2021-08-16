@@ -1,3 +1,3 @@
-module github.com/scientific-guy/gocollection
+module github.com/scientific-dev/gocollection
 
 go 1.15
